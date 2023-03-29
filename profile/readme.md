@@ -7,31 +7,17 @@ This organization page contains the repositories for many methods and algorithms
 ## **WORK IN PROGRESS**
 This list is still being updated!
 
-## MAIN Workspaces
+## Robotics Workspaces
 An attemp to organize our ROS pkgs according to their functionality. We offer four main repositories, namely "hw_drivers", "management", "utils", and "missions_pkg". However, it must be noticed that many of our contributions are hosted in particular repositories because they are result of a research paper and therefore independent of this organization. To ease this caos, we show next the organization of each of those four main repositories, marking with [PR] those pkgs included as submodules and hosted independently in their own repositories.
 
-### [hw_drivers](https://github.com/MAPIRlab)
-A set of ROS pkgs implementing drivers to interact with sensors, actuators and mobile platforms.
+ ## [hw_drivers](https://github.com/MAPIRlab/hw_drivers)
+ A set of ROS pkgs implementing drivers to interact with sensors, actuators and mobile platforms.
+     
+ ## [management](https://github.com/MAPIRlab/management) 
+ A set of ROS pkgs to manage/control/coordinate/execute highl level tasks of the robot.
   
-  - giraff_ros_driver
-  - giraff_interfaces
-  - keyboard_control
-  - [PR] [ROS2ARIA](https://github.com/MAPIRlab/ros2aria)
-  - sickLMS
-  - [PR] [Olfaction drivers](https://github.com/MAPIRlab/hw_drivers_olfaction)
-  - [PR] [Motas](https://github.com/MAPIRlab/Motas)
-  - [PR] urg_c
-  - [PR] urg_node
-  - [PR] urg_node_msgs
-    
-### [management](https://github.com/MAPIRlab) 
-A set of ROS pkgs to manage/control/coordinate/execute highl level tasks of the robot.
-
-  - task_manager
-  - task_manager_interface
-  
-### [utils](https://github.com/MAPIRlab) 
-ROS pkg implementing utilities for the robot like TTS, SST, topological mapping or odometry estimation. This is a highly heterogeneous repository, so we will try to keep it organized in a folder tree structure, so it can be easy "IGNORED" by ROS when we are not interested in specific applications.
+ ## [utils](https://github.com/MAPIRlab/utils) 
+ ROS pkg implementing utilities for the robot like TTS, SST, topological mapping or odometry estimation. This is a highly heterogeneous repository, so we will try to keep it organized in a folder tree structure, so it can be easy "IGNORED" by ROS when we are not interested in specific applications.
 
   - Communications
     - mqtt_bridge
@@ -46,8 +32,8 @@ ROS pkg implementing utilities for the robot like TTS, SST, topological mapping 
   - HRI
    - [PR] [People detection](https://github.com/MAPIRlab/people_detection)
 
-### [missions_pkg](https://github.com/MAPIRlab) 
-This is a single ROS pkg, with launch and configuration files likes maps and rviz files. Overall, it can be seen as the main launch file that will call/include the launch files of each pkg to be run (drivers, applications, etc.)
+ ## [missions_pkg](https://github.com/MAPIRlab/missions_pkg) 
+ This is a single ROS pkg, with launch and configuration files likes maps and rviz files. Overall, it can be seen as the main launch file that will call/include the launch files of each pkg to be run (drivers, applications, etc.)
 
 
 ## Configured workspaces
