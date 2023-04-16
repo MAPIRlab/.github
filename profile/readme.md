@@ -32,7 +32,7 @@ An attemp to organize our ROS pkgs according to their functionality. We offer fo
   - HRI
    - [PR] [People detection](https://github.com/MAPIRlab/people_detection)
 
- ## [missions_pkg](https://github.com/MAPIRlab/missions_pkg) 
+ ## [missions](https://github.com/MAPIRlab/missions) 
  This is a single ROS pkg, with launch and configuration files likes maps and rviz files. Overall, it can be seen as the main launch file that will call/include the launch files of each pkg to be run (drivers, applications, etc.)
 
 
