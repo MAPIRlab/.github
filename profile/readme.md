@@ -36,6 +36,7 @@ However, it must be noted that many of our contributions are hosted in particula
     - [PR] [LTC Mapping](https://github.com/MAPIRlab/LTC-Mapping) 
   - Navigation
     - [Nav Assistant](https://github.com/MAPIRlab/navigation-assistant)
+    - Patrol
   - HRI
     - Web-HRI
     - [PR] [People detection](https://github.com/MAPIRlab/people_detection)
