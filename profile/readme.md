@@ -4,11 +4,8 @@ The *MAchine Perception and Intelligent Robotics* group is a research group in t
 
 This organization page contains the repositories for many methods and algorithms we have published so far, as well as the tools and configuration files we require for internal use. You can browse all existing repositories, or use the links below to find things by topics:
 
-## **WORK IN PROGRESS**
-This list is still being updated!
-
 ## Main repositories
-We offer four main repositories: "hw_drivers", "management",  "missions_pkg", and "utils". 
+We offer four main repositories: `hw_drivers`, `management`, `missions_pkg`, and `utils`. 
 
 However, it must be noted that many of our contributions are hosted in particular repositories because they are result of a research paper and therefore independent of this organization. To ease this chaos, we show next the organization of each of those four main repositories, marking with [PR] those pkgs included as submodules and hosted independently in their own repositories.
 
