@@ -28,6 +28,7 @@ However, it must be noted that many of our contributions are hosted in particula
   - Odometry
     - [PR] [SRF](https://github.com/MAPIRlab/srf_laser_odometry)
     - [PR] [RF2O](https://github.com/MAPIRlab/rf2o_laser_odometry)
+    - [GND-LO](https://github.com/MAPIRlab/GND-LO)
   - Mapping
     - [PR] [Sigma-FP](https://github.com/MAPIRlab/Sigma-FP)
     - [PR] [LTC Mapping](https://github.com/MAPIRlab/LTC-Mapping) 
