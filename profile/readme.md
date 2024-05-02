@@ -65,6 +65,7 @@ A list of our contributions to the chemical sensing with mobile robots. This is 
 - [Alexa-ROS](https://github.com/MAPIRlab/Alexa-ROS)
 - [UPGMPP-ROS](https://github.com/MAPIRlab/upgmpp_wrapper)
 - [RL-ROBOT](https://github.com/MAPIRlab/rlrobot)
+- [Instance segmentation pkgs](https://github.com/MAPIRlab/instance_segmentation)
 
 
 
