@@ -33,10 +33,11 @@ However, it must be noted that many of our contributions are hosted in particula
     - [PR] [Sigma-FP](https://github.com/MAPIRlab/Sigma-FP)
     - [PR] [LTC Mapping](https://github.com/MAPIRlab/LTC-Mapping) 
   - Navigation
-    - [Nav Assistant](https://github.com/MAPIRlab/navigation-assistant)
+    - [Nav Assistant](https://github.com/antbaena/sancho_ws)
     - Patrol
   - HRI
     - Web-HRI
+    - [sancho_ws](https://github.com/MAPIRlab/people_detection)
     - [PR] [People detection](https://github.com/MAPIRlab/people_detection)
   - Coppelia
     - Coppelia-ros-pkg
